@@ -55,9 +55,7 @@ transition: 0.3s;
     fill: #F2F9FE;
     stroke: #F2F9FE
 }
-#darkmode:checked + .toggle .menu {
-    filter: invert(100%);
-}
+
 
 
 
