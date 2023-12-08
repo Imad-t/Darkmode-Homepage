@@ -7,13 +7,24 @@ body{
     font-weight: 600;
     transition: background-color 1s ease, color 0.3s ease; /* Add a smooth transition effect */
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: scroll;
 }
+
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */
 
 .head{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 
 }
 header{
@@ -55,6 +66,7 @@ a:hover {
 
 }
 .home {
+    margin-top: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 

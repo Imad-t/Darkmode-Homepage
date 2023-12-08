@@ -13,7 +13,7 @@
 }
 .hero{
     margin: auto;
-    width: 60%;
+    width: 80%;
     height: 500px;
 }
 }
@@ -39,11 +39,11 @@
         width: 24px;
         height: 24px;
         align-self: flex-end;
-        margin: 0;
+        margin: 0 10px 0 0;
     }
     .open .menu {
         background-image: url("./assets/XCloseDelete.svg");
-        margin: 15px 18px 0 0;
+        margin: 15px 0 0 0;
       }
 
       #darkmode:checked ~ .menu {
@@ -89,6 +89,7 @@
 
  .home{
     z-index: 1;
+    overflow-x: hidden;
  }
  .hero{
     width: 100%;
@@ -96,8 +97,18 @@
 .desc{
     padding: 30px 8% 0 8% ;
 }
+.desc h1{
+    font-size: 36px;
+}
+
 .demo{
     margin: 0;
+}
+.tips{
+    flex-direction: column;
+}
+.tip{
+    padding: 0;
 }
 }
 
