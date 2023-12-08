@@ -45,11 +45,10 @@
         background-image: url("./assets/XCloseDelete.svg");
         margin: 15px 0 0 0;
       }
-
-      #darkmode:checked ~ .menu {
-        filter: invert(100%);
-    }
-    
+      
+    .dark-mode-filter {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(100deg);
+    }  
     nav{
         flex-direction: column;
         justify-content:center;
@@ -90,6 +89,8 @@
  .home{
     z-index: 1;
     overflow-x: hidden;
+    margin-top: 0;
+    margin-bottom: 60px;
  }
  .hero{
     width: 100%;
@@ -104,8 +105,13 @@
 .demo{
     margin: 0;
 }
+.buttons{
+    font-size: 16px;
+}
 .tips{
+    margin-top: 10px;
     flex-direction: column;
+    gap: 0;
 }
 .tip{
     padding: 0;
