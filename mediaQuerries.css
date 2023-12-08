@@ -1,0 +1,23 @@
+@media screen and (max-width:1024px){
+
+.toggle {
+    margin-left: 40%;
+}
+
+.links{
+    min-width: 60%;
+}
+.home{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero{
+    margin: auto;
+    width: 60%;
+    height: 500px;
+}
+}
+
+@media screen and (max-width: 640px) {
+    
+}

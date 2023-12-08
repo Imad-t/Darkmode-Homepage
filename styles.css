@@ -1,0 +1,119 @@
+
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Sora', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    font-weight: 600;
+    transition: background-color 1s ease, color 0.3s ease; /* Add a smooth transition effect */
+    margin: 0;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+
+}
+header{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.links {
+    list-style: none;
+    min-width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
+}
+#selected {
+    color: var(--txt-color);
+}
+a{
+    text-decoration: none;
+    color: #909193;
+    display: inline-block; 
+    transition: transform 0.1s ease;
+    padding: 0 6px;
+    white-space: nowrap;
+
+}
+a:hover {
+    transform: scale(1.03);
+
+}
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.hero {
+
+    background-image: url('/assets/hero-image-simple-homepage.png');
+    background-size: 80%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.desc {
+    padding:  40px 22% 0 8% ;
+    font-size: 18px;
+}
+
+
+.desc h5{
+    color: var(--txt-color);
+    margin: 0;
+}
+.desc h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--txt-color);
+    margin: 20px 0  ;
+}
+
+.slogan{
+    color: #909193;
+    font-weight: 500;
+}
+
+.start  {
+    background-color: #2A4DD0;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.demo {
+    color: #2A4DD0;
+    margin: 0 24px;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.tips{
+    display: flex;
+}
+.tip {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 30px 10px;
+    font-size: 14px;
+    color:#909193;
+    font-weight: 500;
+    white-space: nowrap;
+
+}

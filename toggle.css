@@ -1,0 +1,59 @@
+:root {
+    --bg-color: #F2F9FE;
+    --txt-color: #223344;
+    --toggle-bg: #223344;
+  }
+/*toggle styles*/
+#darkmode {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+.toggle {
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 150%;
+    background-color: var(--toggle-bg);
+    display: block;
+    position: relative;
+    cursor: pointer;
+} 
+/* to insert disk to toggle*/
+.toggle:after {
+content: "";
+width: 24px;
+height: 24px;
+border-radius: 24px;
+background-color: #F2F9FE;
+position: absolute;
+top: 3px;
+right: 3px;
+z-index: 0;
+transition: 0.3s;
+}
+.mode{
+    position: absolute;
+    z-index: 1;
+}
+#light {
+    right: 5px;
+    top: 5px;
+}
+#dark {
+    left: 5px;
+    top: 5px;
+}
+
+#darkmode:checked + .toggle:after {
+    transform: translateX(-120%);
+}
+#darkmode:checked + .toggle #dark path {
+    fill: #223344;
+}
+#darkmode:checked + .toggle #light circle, #darkmode:checked + .toggle #light path{
+    fill: #F2F9FE;
+    stroke: #F2F9FE
+}
+
+
