@@ -1,5 +1,4 @@
 
-
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-family: 'Sora', sans-serif;
@@ -22,14 +21,16 @@ header{
     display: flex;
     justify-content: center;
 }
-.navbar {
+nav {
     width: 75%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     
 }
-
+.menu {
+    visibility: hidden;
+}
 .links {
     list-style: none;
     min-width: 45%;

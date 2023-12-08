@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALarado</title>
+    <title>Alarado</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./toggle.css">
     <link rel="stylesheet" href="./mediaQuerries.css">
@@ -26,7 +26,7 @@
                 <path d="M133.843 20.976C132.531 20.976 131.347 20.696 130.291 20.136C129.251 19.576 128.427 18.776 127.819 17.736C127.227 16.696 126.931 15.48 126.931 14.088C126.931 12.712 127.235 11.504 127.843 10.464C128.451 9.40799 129.283 8.59999 130.339 8.03999C131.395 7.47999 132.579 7.19999 133.891 7.19999C135.203 7.19999 136.387 7.47999 137.443 8.03999C138.499 8.59999 139.331 9.40799 139.939 10.464C140.547 11.504 140.851 12.712 140.851 14.088C140.851 15.464 140.539 16.68 139.915 17.736C139.307 18.776 138.467 19.576 137.395 20.136C136.339 20.696 135.155 20.976 133.843 20.976ZM133.843 17.424C134.627 17.424 135.291 17.136 135.835 16.56C136.395 15.984 136.675 15.16 136.675 14.088C136.675 13.016 136.403 12.192 135.859 11.616C135.331 11.04 134.675 10.752 133.891 10.752C133.091 10.752 132.427 11.04 131.899 11.616C131.371 12.176 131.107 13 131.107 14.088C131.107 15.16 131.363 15.984 131.875 16.56C132.403 17.136 133.059 17.424 133.843 17.424Z" fill="#223344"/>
             </svg>
         </header>
-        <nav class="navbar">
+        <nav>
                 
             <ul class="links">
                 <li>
@@ -62,9 +62,10 @@
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M15 4C15.292 4 15.438 4 15.5781 4.04183C16.192 4.22522 16.4775 4.93111 16.1637 5.48976C16.0921 5.61719 15.8744 5.82779 15.4389 6.249C13.935 7.70352 13 9.74257 13 12C13 14.2574 13.935 16.2965 15.4389 17.751C15.8744 18.1722 16.0921 18.3828 16.1637 18.5102C16.4775 19.0689 16.192 19.7748 15.5781 19.9582C15.438 20 15.292 20 15 20V20C10.5817 20 7 16.4183 7 12C7 7.58172 10.5817 4 15 4V4Z" fill="#F2F9FE"/>
                     </svg>
                         
-                        
                 </label>
             </span>
+            <span class="menu" onclick="showMenu()"></span>
+
         </nav>
     </div>
     
@@ -73,10 +74,10 @@
             <h5>😎 SIMPLE WAY TO COMMUNICATE</h5>
             <h1>Actions for Accessibility <br> in Design</h1>
             <p class="slogan">The fastest way to build and deploy websites with resusable components.</p>
-            <div>
+            <span>
                 <a class="start" href="#">GET STARTED</a>
                 <a class="demo" href="#">Get Live Demo</a>
-            </div>
+            </span>
             <div class="tips">
                 <span class="tip">
                     <img src="./assets/Done_ring_round_fill.svg" alt="">

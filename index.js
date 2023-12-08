@@ -28,3 +28,9 @@ document.getElementById('darkmode').addEventListener('change', (event) => {
         }
     });
 });
+
+function showMenu() {
+    var nav = document.querySelector('nav'); // Adjust the selector based on your actual structure
+
+    nav.classList.toggle('open');
+}
